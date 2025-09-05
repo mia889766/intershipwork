@@ -1,0 +1,3 @@
+# ninja log v5
+1	24646	1754970504046419829	/workspace/openfold/build/temp.linux-x86_64-3.7/openfold/utils/kernel/csrc/softmax_cuda.o	54ccaaf6197a3625
+1	142281	1754970621691117184	/workspace/openfold/build/temp.linux-x86_64-3.7/openfold/utils/kernel/csrc/softmax_cuda_kernel.o	5b738865a11ff0ba

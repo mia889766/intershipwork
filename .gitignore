@@ -1,0 +1,26 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Large artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.deb
+
+# Project-specific heavy dirs
+EITLEM-Kinetics/Data/
+EITLEM-Kinetics/Results*/
+EITLEM-Kinetics/Resultsmm*/
+EITLEM-Kinetics/Resultsmy*/
+OmniESI/datasets/
+OmniESI/exports/
+openfold/data/
+openfold/output/
+openfold/logs/
