@@ -9,7 +9,7 @@ from Bio import SeqIO
 from tqdm import tqdm
 
 # ==== 路径 ====
-feature_dir = "EITLEM-Kinetics/Data/Feature"
+feature_dir = "EITLEM-Kineticsold/Data/Feature"
 input_fasta = os.path.join(feature_dir, "seq_str.fasta")
 index_seq_path = os.path.join(feature_dir, "index_seq")
 index_smiles_path = os.path.join(feature_dir, "index_smiles")

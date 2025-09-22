@@ -16,10 +16,6 @@ from torch import autocast
 import re
 import random
 scaler = GradScaler()
-import torch
-from torch import nn
-
-GRAD_CLIP = 1.0  # 新增，控制梯度裁剪的最大范数
 
 
 class Tester(object):
@@ -75,9 +71,8 @@ class Trainer(object):
             loss = self.loss_fn(pre_value, data.value)
 #             scaler.scale(loss).backward()
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
-            optimizer.step()
 #             scaler.step(optimizer)
+            optimizer.step()
 #             scaler.update()
             loss_train += loss.item()
             testY.extend(data.value.cpu().tolist())

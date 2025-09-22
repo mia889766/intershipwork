@@ -24,3 +24,8 @@ OmniESI/exports/
 openfold/data/
 openfold/output/
 openfold/logs/
+
+# ignore results and logs
+Results*/
+*.log
+*.csv
